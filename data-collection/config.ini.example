@@ -1,0 +1,6 @@
+[stackexchange]
+APP_KEY =
+ACCESS_TOKEN =
+
+[filters]
+MIN_VOTES = 2

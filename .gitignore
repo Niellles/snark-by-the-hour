@@ -1,0 +1,3 @@
+*.ini
+/data-collection/data/*
+/data-collection/example-response.json
