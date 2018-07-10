@@ -6,16 +6,17 @@ It seems like a fun thing to make and I really couldn't agree more with Davy's w
 If you happen to have a snarkiness-classifier (with a training set) laying around, feel free to let me now in an issue, or better yet; throw me a pull request. (_Yes, kind people of SO, I am hinting at you guys here._)
 
 ## To-do:
-1. Gather some training data.
+- [ ] Gather some training data
   - [x] Code data collector
+    - [ ] Hopefully improve this if this [API issue](https://stackoverflow.com/questions/51269945/order-stackexchange-api-reponse-by-date-and-specify-minimum-votes) ever gets fixed. Or find a work around ? which is not too hard for comments that have been added since the collectors last run.
   - [x] Extract possible features
      - [ ] Determine sarcasm. (Waiting for my [pull request](https://github.com/AniSkywalker/SarcasmDetection/pull/4) to AniSkywalker/SarcasmDetection to be merged.)
-  - [ ] Clean-up code and make seperate modules for collection and feature extraction.
-  - [ ] Grab data from API.
+  - [ ] Clean-up code and make seperate modules for collection and feature extraction
+  - [ ] Grab data from API
   - [ ] Manually rate a [metric shit ton](http://supremecourtjester.blogspot.com/2015/05/units-of-modern-measurement-how-many.html) of comments.
-2. Come up with a snarkiness classifier.
+- [ ] Come up with a snarkiness classifier
   - [ ] Visualize data.
-  - [ ] Select relevant features.
-  - [ ] Determine appropriate classifier.
-3. Make some web interface to show this potentially hilarious data.
-4. Write a classifier for questions that are likely to yield snarky comments.
+  - [ ] Select relevant features
+  - [ ] Determine appropriate classifier
+- [ ] Make some web interface to show this potentially hilarious data
+- [ ] Write a classifier for questions that are likely to yield snarky comments
