@@ -8,6 +8,7 @@ If you happen to have a snarkiness-classifier (with a training set) laying aroun
 ## To-do:
 - [ ] Gather some training data
   - [x] Code data collector
+     - [ ] Hopefully improve this if this [API issue](https://stackoverflow.com/questions/51269945/order-stackexchange-api-reponse-by-date-and-specify-minimum-votes) ever gets fixed. Or find a worh around ? which is not too hard for comments that have been added since the collectors last run.
   - [x] Extract possible features
      - [ ] Determine sarcasm. (Waiting for my [pull request](https://github.com/AniSkywalker/SarcasmDetection/pull/4) to AniSkywalker/SarcasmDetection to be merged.)
   - [ ] Clean-up code and make seperate modules for collection and feature extraction
